@@ -1,0 +1,40 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #0f111a;
+  color: #e8ecff;
+  margin: 0;
+  padding: 1rem;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+.selectors {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+label {
+  font-weight: bold;
+}
+select {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background: #1f233a;
+  color: #e8ecff;
+}
+.card {
+  background: #1f233a;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+.small {
+  font-size: 0.75rem;
+  opacity: 0.75;
+  margin-top: 1rem;
+}
