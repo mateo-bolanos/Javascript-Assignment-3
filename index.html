@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Assignment 3, Car search using API</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Car Lookup by Year / Make / Model</h1>
+
+    <div class="selectors">
+      <label for="yearSelect">Year:</label>
+      <select id="yearSelect"></select>
+
+      <label for="makeSelect">Make:</label>
+      <select id="makeSelect" disabled></select>
+
+      <label for="modelSelect">Model:</label>
+      <select id="modelSelect" disabled></select>
+    </div>
+
+    <div id="result" class="card"></div>
+
+    <div class="small">
+      Data via NHTSA vPIC API. Documents: 
+      <a href="https://vpic.nhtsa.dot.gov/api/" target="_blank"></a>.
+    </div>
+  </div>
+  <script src="key.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
