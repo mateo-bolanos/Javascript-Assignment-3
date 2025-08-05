@@ -1,0 +1,1 @@
+window.OPENROUTER_API_KEY = 'sk-...YOUR_API_KEY';
